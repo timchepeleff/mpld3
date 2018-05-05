@@ -17,7 +17,7 @@ AUTHOR_EMAIL = "jakevdp@cs.washington.edu"
 MAINTAINER = "Jake VanderPlas"
 MAINTAINER_EMAIL = "jakevdp@cs.washington.edu"
 URL = 'http://mpld3.github.com'
-DOWNLOAD_URL = 'http://github.com/jakevdp/mpld3'
+DOWNLOAD_URL = 'https://github.com/timchepeleff/mpld3'
 LICENSE = 'BSD 3-clause'
 VERSION = get_version()
 

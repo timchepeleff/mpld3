@@ -138,10 +138,10 @@ class NumpyEncoder(json.JSONEncoder):
             numpy.int16, numpy.int32, numpy.int64, numpy.uint8,
             numpy.uint16,numpy.uint32, numpy.uint64)):
             return int(obj)
-        elif isinstance(obj, (numpy.float_, numpy.float16, numpy.float32, 
+        elif isinstance(obj, (numpy.float_, numpy.float16, numpy.float32,
             numpy.float64)):
             return float(obj)
-        elif isinstance(obj, (numpy.ndarray,)):
+        elif isinstance(obj, (numpy.ndarray)):
             return obj.tolist()
         return json.JSONEncoder.default(self, obj)
 
